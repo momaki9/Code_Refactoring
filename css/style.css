@@ -63,6 +63,7 @@ a {
     margin-left: 20px;
 }
 
+/* consolidated previous selectors in main section since the styling was the same */
 .mcontent {
     margin-bottom: 20px;
     padding: 50px;
@@ -72,6 +73,7 @@ a {
     color: #ffffff;
 }
 
+/* consolidated previous selectors for the images in main section since the styling was the same */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -104,6 +106,7 @@ p {
     background-color: #2589bd;
 }
 
+/* styling applies to all elements in the section with sidebar class */
 .sidebar {
     margin-bottom: 32px;
     color: #ffffff;
@@ -115,12 +118,14 @@ h3 {
     text-align: center;
 }
 
+/* consolidated previous selectors for images in sidebar section since the styling was the same */
 .sideimg {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* styles the footer to be positioned at the bottom center of the site */
 .footer {
     padding: 30px;
     clear: both;

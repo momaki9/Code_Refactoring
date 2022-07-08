@@ -6,10 +6,11 @@
         <link rel="stylesheet" href="./css/style.css">
 
         <!-- renamed title for the webpage -->
-    <title>SEO</title>
+    <title>Search Engine Optimization</title>
 </head>
 
 <body>  
+    <!-- replaced div with section element -->
     <section class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <nav>
@@ -27,12 +28,16 @@
         </nav>
     </section>
 
-    <!-- added alt and title attribute to all images on webpage -->
-    <img class="background" src="./images/digital-marketing-meeting.jpg" alt="image depicting group of colleagues collaborating" title="Digital Marketing Meeting"> 
+    <!-- replaced div with figure element and linked image in html rather than in css -->
+    <figure>
 
+        <!-- added alt and title attribute to all images on webpage -->
+        <img class="background" src="./images/digital-marketing-meeting.jpg" alt="image depicting group of colleagues collaborating" title="Digital Marketing Meeting"> 
+    </figure>
+    
     <main class="content">
 
-        <!-- added an id to fix the link destination for the Search Engine Optimization link -->
+        <!-- added an id to fix the link destination for the Search Engine Optimization link also modified the class to mcontent -->
         <section id="search-engine-optimization" class="mcontent">
             <img src="./images/search-engine-optimization.jpg" class="float-left" alt="image depicting brainstorming ideas for search engine optimization" title="Search Engine Optimization"/>
                 <h2 class="mh2">Search Engine Optimization</h2>
@@ -55,9 +60,13 @@
             </p>
         </section>
     </main>
+
+    <!-- replaced div with section element to represent the side bar -->
     <section class="benefits">
         <div class="sidebar">
             <h3>Lead Generation</h3>
+            
+            <!-- modified class for all 3 sections to simplify css styling -->
             <img src="./images/lead-generation.png" class="sideimg" alt="image depicting gear turning into profit" title="Lead Generation"/>
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
